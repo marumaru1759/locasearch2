@@ -52,7 +52,6 @@
           </nav>
         </div>
       </footer>
-  </div>
 </template>
 
 <script>
