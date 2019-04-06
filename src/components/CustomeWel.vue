@@ -1,5 +1,5 @@
 <template>
-
+	<div>
 	<header class="nav">
         <div class="nav-left">
         	<span class="nav-item">
@@ -51,7 +51,8 @@
             <a class="nav-link" href="#">お問い合わせ</a>
           </nav>
         </div>
-      </footer>
+     </footer>
+ </div>
 </template>
 
 <script>
