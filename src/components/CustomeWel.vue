@@ -12,15 +12,14 @@
 			</span>
 		</div>
 
-	<section class="hero">
-		<div class="hero-body">
+		<section class="hero">
+			<div class="hero-body">
 				<div class="conatainer">
 					<h1 class="title">Locasearch</h1>
 					<h2 class="subtitle">あなたの行きたいを見つけるサイト</h2>
 				</div>
 			</div>
-		</div>
-	</section>
+		</section>
 	</header>
 
 	<section class="level">
