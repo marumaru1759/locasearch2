@@ -1,27 +1,50 @@
 <template>
-   <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
-	<header class="masthead mb-auto">
-        <div class="inner">
-          <h3 class="masthead-brand">ロケサーチ（仮）</h3>
-          <nav class="nav nav-masthead justify-content-end">
-            <router-link to="/info" class="nav-link">お知らせ</router-link>
-            <router-link to="/mypage" class="nav-link">マイページ</router-link>
-            <router-link to="/users" class="nav-link">UsersList</router-link>
-            <router-link to="/login" class="nav-link">ログイン</router-link>
-          </nav>
+
+	<header class="nav">
+        <div class="nav-left">
+        	<span class="nav-item">
+        		<span class="fa fa-language"></span>Locasearch
+        	</span>
         </div>
-      	</header>
+        <div class="nav-right">
+        	<span class="nav-item">
+        		<router-link to="/login" class="fa fa-user">ログイン</router-link>
+			</span>
+		</div>
 
-	<main role="main" class="inner cover">
-        	<h1 class="cover-heading">ロケサーチ（仮）</h1>
-        	<p class="lead midlang">あなたの行きたいを見つけるサイト</p>
-        	<p class="lead">
-		<router-link to="/register" class="btn btn-lg btn-primary">新規登録</router-link>
-        	</p>
-        </main>
+		<div class="hero is-info is-bold">
+			<div class="hero-body">
+				<div class="conatainer">
+					<h1 class="title">CASAREAL</h1>
+					<h2 class="subtitle">あなたの行きたいを見つけるサイト</h2>
+				</div>
+			</div>
+		</div>
+	</header>
 
-	<footer class="mastfoot mt-auto">
-        <div class="inner">
+	<section class="level">
+		<div class="level-right">
+			<div class="level-item tabs">
+				<ul>
+					<li class"is-active">
+						 <router-link to="/info" class="nav-link">お知らせ</router-link></li>
+						 <li><router-link to="/mypage" class="nav-link">マイページ</router-link></li>
+						 <li><router-link to="/users" class="nav-link">UsersList</router-link></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+	<main class="columns">
+		<div class="content">
+        	<h1>ロケサーチ（仮）</h1>
+        	<p>あなたの行きたいを見つけるサイト</p>
+			<router-link to="/register" class="button">新規登録</router-link>
+        </div>
+     </main>
+
+	<footer class="container">
+        <div class="content">
           <nav class="nav justify-content-center">
             <a class="nav-link" href="#">利用規約</a> 
             <a class="nav-link" href="#">当サイトについて</a>
