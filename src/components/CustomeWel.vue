@@ -20,6 +20,7 @@
 				</div>
 			</div>
 		</div>
+	</section>
 	</header>
 
 	<section class="level">
