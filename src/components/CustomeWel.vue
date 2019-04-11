@@ -49,8 +49,8 @@
 
 		<div class="hero-body">
 			<div class="container has-text-centered">
-				<div class="column is-half is-offset-3">
-                        <h1 class="title">
+				<div class="column is-6 is-offset-3">
+                        <h1 class="title" font-family="Verdana">
                             ロケサーチ（仮）
                         </h1>
                          <h2 class="subtitle">
@@ -62,12 +62,12 @@
 			</div>
 		</div>
 
-	<footer class="container">
-        <div class="content">
-          <nav class="nav justify-content-center">
-            <a>利用規約</a> 
-            <a>当サイトについて</a>
-            <a>お問い合わせ</a>
+	<footer class="hero-foot">
+        <div class="container">
+          <nav class="navbar navbar-menu">
+            <a class="column is-2 is-offset-3 navbar-item">利用規約</a> 
+            <a class="column is-2 navbar-item">当サイトについて</a>
+            <a class="column is-2 navbar-item">お問い合わせ</a>
           </nav>
         </div>
     </footer>
